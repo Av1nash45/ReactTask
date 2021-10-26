@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect} from "react";
 import { Form, Input, Button, Select } from "antd";
 import { useDispatch } from "react-redux";
 import { signupUser } from "../../redux/actions/actions";
@@ -20,6 +20,7 @@ const UserForm = () => {
   const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
   };
+
 
   return (
     <>
@@ -79,7 +80,7 @@ const UserForm = () => {
             {
               required: true,
               message: "Please input your phone number !",
-            },
+            }
           ]}
           style={{ marginBottom: 5 }}
         >

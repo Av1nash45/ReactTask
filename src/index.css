@@ -1,5 +1,6 @@
 body {
   margin: 0;
-  background-image: linear-gradient(to bottom right,rgba(245, 40, 145, 0.8),rgba(0, 195, 243, 0.8));
+  /* background-image: linear-gradient(to bottom right,rgba(245, 40, 145, 0.8),rgba(0, 195, 243, 0.8)); */
+  background-size:cover;
   /* background-repeat: no-repeat; */
 }
