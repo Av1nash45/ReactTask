@@ -1,0 +1,39 @@
+.Usercard_Container {
+  background-color: white;
+  margin-bottom: 1%;
+  width: 120%;
+  padding: 5%;
+  border-radius: 2rem;
+}
+.Usercard {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  text-align: center;
+}
+.edit_button {
+  margin: 1px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.delete_button {
+  margin: 1px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.view_button {
+  margin: 1px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}

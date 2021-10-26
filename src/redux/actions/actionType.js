@@ -1,0 +1,5 @@
+export const actionType ={
+ SIGNUP_USER:'SIGNUP_USER',
+ EDIT_USER:'EDIT_USER',
+ DELETE_USER:'DELETE_USER'
+}

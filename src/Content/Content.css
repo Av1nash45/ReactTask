@@ -1,0 +1,27 @@
+.Content {
+  margin: 0;
+  padding: 3%;
+  box-sizing: border-box;
+}
+.Content_wrapper {
+  display: flex;
+
+}
+.Content-Userform {
+  width: 40%;
+  position: fixed;
+  background-color: whitesmoke;
+  margin-left: 2%;
+  padding: 2%;
+  border-radius: 1rem;
+  min-height: 80vh;
+  max-height: 90vh;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.Content_Table {
+  /* width: 60%; */
+  margin: 8%;
+  padding: 3%;
+  margin-left: 50%;
+  border-radius: 1rem;
+}
